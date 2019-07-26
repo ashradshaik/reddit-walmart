@@ -22,6 +22,79 @@
 .App-link {
   color: #61dafb;
 }
+.main-container {
+  width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  background:#dae0e6;
+  padding:50px 20px;
+}
+
+.left-container {
+  width: 70%;
+}
+
+.menu-button:hover{
+  color:red
+}
+
+/* .menu-button:hover + .navigation{
+  display: block
+} */
+
+.navigation-off, .navigation-on{
+  list-style: none;
+  padding: 0;
+  display: none;
+}
+
+.navigation-on{
+  display: block;
+}
+
+
+
+.right-container{
+  width:27%;
+}
+
+.posts{
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu-button{
+  cursor: pointer;
+}
+
+.menu-button span{
+  font-size: 30px;
+    vertical-align: middle;
+    padding: 11px 0 0;
+}
+
+.posts li{
+  background:#fff;
+  padding:10px;
+  margin:0 0 15px;
+  text-align: left;
+  cursor:pointer;
+  overflow: auto;
+  text-overflow: ellipsis;
+}
+.postList{
+  -webkit-mask-image: linear-gradient(180deg,#000 60%,transparent);
+    mask-image: linear-gradient(180deg,#000 60%,transparent);
+    max-height: 250px;
+
+}
+
+.thumbnail{
+  max-width: 100%
+}
+
+
 
 @keyframes App-logo-spin {
   from {
